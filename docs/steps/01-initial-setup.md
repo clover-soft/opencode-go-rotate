@@ -36,9 +36,9 @@ opencode-go-rotate/
 
 Файл `.env` должен содержать ключи opencode-go:
 ```
-OPENCODE_GO_KEY_001=key1
-OPENCODE_GO_KEY_002=key2
-OPENCODE_GO_KEY_003=key3
+OPENCODE_GO_API_KEY_001=key1
+OPENCODE_GO_API_KEY_002=key2
+OPENCODE_GO_API_KEY_003=key3
 ```
 
 Файл `config.yaml` должен содержать:

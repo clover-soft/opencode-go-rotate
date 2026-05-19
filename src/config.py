@@ -38,7 +38,7 @@ class Config:
     def validate(self) -> bool:
         """Проверка валидности конфигурации"""
         if not self.opencode_keys:
-            raise ValueError("OPENCODE_GO_KEY_* не заданы")
+            raise ValueError("OPENCODE_GO_API_KEY_* не заданы")
         if not self.config_files:
             raise ValueError("config_files не задан в config.yaml")
         return True
