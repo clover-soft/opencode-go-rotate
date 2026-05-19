@@ -1,0 +1,6 @@
+# Конфигурация файлов для обновления ключей
+
+config_files:
+- "/path/to/.env1"
+- "/path/to/.env2"
+- "/path/to/config.yaml"
